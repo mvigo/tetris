@@ -1,5 +1,4 @@
-const CONSUMER_KEY = 'fFQxNWvyLhOTBbCaErFG';
-const CONSUMER_SECRET = 'kkLgNaCEVHJRTXyfvrlEwXdsGHnfMiEf';
+
 
 // Fetch the search results for a specific artist from the Discogs API
 async function fetchRecords(artist) {
