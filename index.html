@@ -3,40 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VinylPurist Lite</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Tetris</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #222;
+            margin: 0;
+        }
+        canvas {
+            border: 1px solid #fff;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>VinylPurist Lite</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="records">
-            <!-- Replace the following example records with actual data -->
-            <article class="record">
-                <h2>Album Title 1</h2>
-                <p>Artist Name 1</p>
-                <p>Genre</p>
-                <img src="images/cover_art1.jpg" alt="Album Title 1 album cover">
-                <a href="record.html">View Details</a>
-            </article>
-            <article class="record">
-                <h2>Album Title 2</h2>
-                <p>Artist Name 2</p>
-                <p>Genre</p>
-                <img src="images/cover_art2.jpg" alt="Album Title 2 album cover">
-                <a href="record.html">View Details</a>
-            </article>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 VinylPurist Lite. All rights reserved.</p>
-    </footer>
-    <script src="js/scripts.js"></script>
+    <canvas id="gameCanvas" width="300" height="600"></canvas>
+    <script>
+        // Your JavaScript Tetris game code goes here
+    </script>
 </body>
 </html>
